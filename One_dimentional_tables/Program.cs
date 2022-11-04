@@ -15,6 +15,7 @@ namespace wdp_lab_tablice
             int suma = Tab1D.SumaParzystych(tab1);
             Console.WriteLine($"Suma wynosi {suma}.");
 
+            Console.WriteLine("kutas");
 
             //(int min, int max) = Tab1D.MinMax(tab1); //trzeba zaprogramować MinMax
             //Console.WriteLine( $"min={min} max={max}" );
