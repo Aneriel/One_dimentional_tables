@@ -12,8 +12,13 @@ namespace wdp_lab_tablice
             int[] tab1 = Tab1D.GenTab(15, -5, 5);
             Console.WriteLine( Tab1D.ConvertToString(tab1) );
 
-            (int min, int max) = Tab1D.MinMax(tab1); //trzeba zaprogramować MinMax
-            Console.WriteLine( $"min={min} max={max}" );
+            int suma = Tab1D.SumaParzystych(tab1);
+            Console.WriteLine($"Suma wynosi {suma}.");
+
+
+            //(int min, int max) = Tab1D.MinMax(tab1); //trzeba zaprogramować MinMax
+            //Console.WriteLine( $"min={min} max={max}" );
+
         }
     }
 }

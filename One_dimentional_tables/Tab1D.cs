@@ -48,7 +48,16 @@ namespace wdp_lab_tablice
         {
             Debug.Assert(tab != null);
             Debug.Assert(tab.Length > 0);
-            throw new NotImplementedException();
+            //   throw new NotImplementedException();
+            int suma = 0;
+            for (int i = 0; i < tab.Length; i++)
+            {
+                if (tab[i] % 2 == 0)
+                {
+                    suma += tab[i];
+                }
+            }
+            return suma;
         }
 
 
